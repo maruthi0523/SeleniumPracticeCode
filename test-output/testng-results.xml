@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36136" started-at="2018-10-24T12:46:24Z" finished-at="2018-10-24T12:47:00Z">
+  <suite name="Default suite" duration-ms="19180" started-at="2018-10-30T13:29:13Z" finished-at="2018-10-30T13:29:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36136" started-at="2018-10-24T12:46:24Z" finished-at="2018-10-24T12:47:00Z">
-      <class name="com.qa.test.MouseHover">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.test.MouseHover@610694f1]" name="setUp" is-config="true" duration-ms="7921" started-at="2018-10-24T18:16:24Z" finished-at="2018-10-24T18:16:32Z">
+    <test name="Default test" duration-ms="19180" started-at="2018-10-30T13:29:13Z" finished-at="2018-10-30T13:29:33Z">
+      <class name="com.qa.test.sample">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.sample@49fc609f]" name="setup" is-config="true" duration-ms="18131" started-at="2018-10-30T18:59:13Z" finished-at="2018-10-30T18:59:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testKeyPress()[pri:0, instance:com.qa.test.MouseHover@610694f1]" name="testKeyPress" duration-ms="28092" started-at="2018-10-24T18:16:32Z" finished-at="2018-10-24T18:17:00Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="downloadfile()[pri:0, instance:com.qa.test.sample@49fc609f]" name="downloadfile" duration-ms="952" started-at="2018-10-30T18:59:32Z" finished-at="2018-10-30T18:59:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testKeyPress -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.MouseHover@610694f1]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-10-24T18:17:00Z" finished-at="2018-10-24T18:17:00Z">
+        </test-method> <!-- downloadfile -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.sample@49fc609f]" name="teardown" is-config="true" duration-ms="71" started-at="2018-10-30T18:59:33Z" finished-at="2018-10-30T18:59:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.test.MouseHover -->
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.test.sample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

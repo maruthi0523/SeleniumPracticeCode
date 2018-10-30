@@ -18,17 +18,19 @@ import org.openqa.selenium.WebDriver;
 		public void setUp() throws Exception {
 			System.setProperty("webdriver.chrome.driver","..//SeleniumPracticeCode//Driver//chromedriver");
 			driver = new ChromeDriver();
-			baseUrl = "https://artoftesting.com/";
-			//driver.manage().window().maximize();
+			baseUrl = "http://the-internet.herokuapp.com/hovers";
+			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         }
 			@Test
 			public void testKeyPress() throws Exception {
 		    driver.get(baseUrl);
+		    Thread.sleep(2000);
 		    Actions action = new Actions(driver);
-		    WebElement element = driver.findElement(By.cssSelector("a[href='jmeter-tutorial.html']"));
-	        action.moveToElement(element).click().perform();
-	      }
+		    WebElement element = driver.findElement(By.id("content"));
+	        action.moveToElement(element).build().perform();
+	        Thread.sleep(2000);
+			}
 			@AfterTest
 			public void tearDown() throws Exception {
 				
