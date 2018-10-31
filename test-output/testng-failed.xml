@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.test.sample">
+      <class name="com.qa.test.JavaScriptAlerts">
         <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="downloadfile"/>
+          <include name="alerts"/>
+          <include name="terminateBrowser"/>
+          <include name="clickalert"/>
         </methods>
-      </class> <!-- com.qa.test.sample -->
+      </class> <!-- com.qa.test.JavaScriptAlerts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

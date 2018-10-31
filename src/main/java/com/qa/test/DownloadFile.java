@@ -1,6 +1,8 @@
 package com.qa.test;
 
 import java.io.File;
+
+
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -25,9 +27,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-
-
-
 public class DownloadFile {
 	 WebDriver driver;
 	File folder;
@@ -47,9 +46,7 @@ public class DownloadFile {
 		options.setExperimentalOption("prefs", prefs);
 		DesiredCapabilities cap = DesiredCapabilities.chrome();
 		cap.setCapability(ChromeOptions.CAPABILITY, options);
-
 	}
-
 	@Test
 	public void downloadfile() throws Exception {
 	
@@ -64,8 +61,7 @@ public class DownloadFile {
         assertThat(contentType, is("application/octet-stream"));
         assertThat(contentLength, is(not(0)));
     }	
-
-	@AfterMethod
+    @AfterMethod
 	public void teardown() {
 		driver.quit();
 		

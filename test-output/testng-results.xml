@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19180" started-at="2018-10-30T13:29:13Z" finished-at="2018-10-30T13:29:33Z">
+  <suite name="Default suite" duration-ms="140832" started-at="2018-10-31T11:41:02Z" finished-at="2018-10-31T11:43:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19180" started-at="2018-10-30T13:29:13Z" finished-at="2018-10-30T13:29:33Z">
-      <class name="com.qa.test.sample">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.sample@49fc609f]" name="setup" is-config="true" duration-ms="18131" started-at="2018-10-30T18:59:13Z" finished-at="2018-10-30T18:59:32Z">
+    <test name="Default test" duration-ms="140832" started-at="2018-10-31T11:41:02Z" finished-at="2018-10-31T11:43:23Z">
+      <class name="com.qa.test.JavaScriptAlerts">
+        <test-method status="PASS" signature="alerts()[pri:0, instance:com.qa.test.JavaScriptAlerts@610694f1]" name="alerts" is-config="true" duration-ms="1238" started-at="2018-10-31T17:11:02Z" finished-at="2018-10-31T17:11:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="downloadfile()[pri:0, instance:com.qa.test.sample@49fc609f]" name="downloadfile" duration-ms="952" started-at="2018-10-30T18:59:32Z" finished-at="2018-10-30T18:59:33Z">
+        </test-method> <!-- alerts -->
+        <test-method status="PASS" signature="clickalert()[pri:0, instance:com.qa.test.JavaScriptAlerts@610694f1]" name="clickalert" duration-ms="139493" started-at="2018-10-31T17:11:03Z" finished-at="2018-10-31T17:13:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- downloadfile -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.sample@49fc609f]" name="teardown" is-config="true" duration-ms="71" started-at="2018-10-30T18:59:33Z" finished-at="2018-10-30T18:59:33Z">
+        </test-method> <!-- clickalert -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.qa.test.JavaScriptAlerts@610694f1]" name="terminateBrowser" is-config="true" duration-ms="78" started-at="2018-10-31T17:13:23Z" finished-at="2018-10-31T17:13:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.qa.test.sample -->
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.qa.test.JavaScriptAlerts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
